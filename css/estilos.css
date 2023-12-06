@@ -1,0 +1,28 @@
+.tabla-carrito {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Ajuste para agregar espacio encima de la tabla */
+}
+
+.tabla-carrito th, .tabla-carrito td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-carrito th {
+    background-color: #f2f2f2;
+}
+
+.tabla-carrito img {
+    width: 50px;
+    height: auto;
+}
+
+.tabla-carrito .boton-eliminar {
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
